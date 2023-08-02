@@ -97,8 +97,10 @@ if(number1 >= 5 && number2 >=5){
 }else{
     console.log(false);
 }
+
 number1= 10;
 number2= 11
+
 if(number1 >= 5 && number2 >=5){
     console.log(true);
 }else{
@@ -106,13 +108,16 @@ if(number1 >= 5 && number2 >=5){
 }
 number1= 0;
 number2= 0;
+
 if(number1 >= 5 && number2 >=5){
     console.log(true);
 }else{
     console.log(false);
 }
+
 number1=1000;
 number2= -1000;
+
 if(number1 >= 5 && number2 >=5){
     console.log(true);
 }else{
@@ -120,6 +125,7 @@ if(number1 >= 5 && number2 >=5){
 }
 number1= 6;
 number2= 4;
+
 if(number1 >= 5 && number2 >=5){
     console.log(true);
 }else{
@@ -127,6 +133,7 @@ if(number1 >= 5 && number2 >=5){
 }
 number1= 5;
 number2= 5;
+
 if(number1 >= 5 && number2 >=5){
     console.log(true);
 }else{
@@ -136,6 +143,8 @@ if(number1 >= 5 && number2 >=5){
 // pair and compare
 //create 4 param varibles
 //compare 2 sets of params if they strictly equal eachother
+
+
 let param1A = "cat";
 let param1B = "cat";
 let param2A= 6;
@@ -147,6 +156,8 @@ if(result1 || result2){
 }else{
     console.log(false);
 }
+
+
 param1A = "five";
 param1B = 5;
 param2A= "dog";
@@ -158,6 +169,8 @@ if(result1 || result2){
 }else{
     console.log(false);
 }
+
+
 param1A = 0;
 param1B = false;
 param2A= "horse";
@@ -169,17 +182,23 @@ if(result1 || result2){
 }else{
     console.log(false);
 }
+
+
 param1A = "eight";
 param1B = "eight";
 param2A= "ate";
 param2B= "ate";
 result1 = param1A === param1B;
 result2= param2A === param2B;
+
+
 if(result1 || result2){
     console.log(true);
-}else{
+} else{
     console.log(false);
 }
+
+
 param1A = 11;
 param1B = "eleven";
 param2A = "four";
@@ -191,6 +210,7 @@ if (result1 || result2) {
 } else {
   console.log(false);
 }
+
 
 param1A = "cake";
 param1B = "cake";
