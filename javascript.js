@@ -151,6 +151,7 @@ let param2A= 6;
 let param2B= "6";
 let result1 = param1A === param1B;
 let result2= param2A === param2B;
+
 if(result1 || result2){
     console.log(true);
 }else{
@@ -164,6 +165,7 @@ param2A= "dog";
 param2B= "dawg";
 result1 = param1A === param1B;
 result2= param2A === param2B;
+
 if(result1 || result2){
     console.log(true);
 }else{
@@ -177,6 +179,7 @@ param2A= "horse";
 param2B= "horse";
 result1 = param1A === param1B;
 result2= param2A === param2B;
+
 if(result1 || result2){
     console.log(true);
 }else{
